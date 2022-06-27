@@ -1,1 +1,8 @@
-<h1>おじの観光アプリ<h1>
+<script type="module">
+import { bg, show } from "https://js.sabae.cc/egadv.js";
+await bg(33);
+let a = await show("ここどこでしょうか？", ["福井","石川","富山"]);
+if(a == "福井") {
+   await show("正解！");
+}
+</script>
